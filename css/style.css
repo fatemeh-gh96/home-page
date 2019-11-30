@@ -1,0 +1,480 @@
+@font-face {
+    font-family: IRANSansWeb;
+    src: url('../fonts/eot/IRANSansWeb.eot');
+    src: url('../fonts/eot/IRANSansWeb.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/woff/IRANSansWeb.woff') format('woff'),
+        url('../fonts/ttf/IRANSansWeb.ttf') format('truetype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: IRANSansWeb;
+    src: url('../fonts/eot/IRANSansWeb_Bold.eot');
+    src: url('../fonts/eot/IRANSansWeb_Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/woff/IRANSansWeb_Bold.woff') format('woff'),
+        url('../fonts/ttf/IRANSansWeb_Bold.ttf') format('truetype');
+    font-weight: bold;
+}
+
+/*******************************************style index*******************************************/
+
+html,
+body {
+    font-family: IRANSansWeb;
+    overflow-x: hidden;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+/****************************nav section******************************/
+nav {
+    height: 70px;
+}
+
+nav img {
+
+    height: 20px;
+    width: 40px;
+}
+
+.navbar-collapse .navbar-nav .navbar-item a {
+    margin-right: 10px;
+    font-size: 15px;
+}
+
+.navbar-collapse .navbar-nav .navbar-item a:hover {
+    color: #000000;
+}
+
+.navbar-brand img {
+    width: 70px;
+    height: 60px;
+}
+
+/****************************cover section******************************/
+.all-title-box {
+    background: url("../img/2.jpeg") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 70px 0px;
+    position: relative;
+    height: 500px;
+    margin-top: 25px;
+}
+
+.all-title-box::before {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+}
+.transparent-cover {
+    height: 250px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+}
+
+/****************************category section******************************/
+.img-div {
+    background: url("../img/3.jpg") no-repeat center center;
+    height: 400px;
+}
+.category h1 {
+    font-size: 2.2rem;
+    color: rgb(255, 193, 7);
+}
+.category-div {
+    height: 200px;
+    text-align: center;
+    background-color: #fff;
+    box-shadow:  rgb(255, 193, 7) 0px 0px 5px;
+}
+
+.category-div a {
+    text-decoration: none;
+    color: black;
+}
+
+.category-div a:hover {
+    text-decoration: none;
+    color: rgb(255, 193, 7)
+}
+
+.btn-style a {
+    text-decoration: none;
+    color: #000
+}
+
+.category-div img {
+    width: 70px;
+}
+
+/****************************person section******************************/
+
+.bg1 {
+    height: 250px;
+    background: url("../img/moshaver.jpg") no-repeat center center;
+}
+
+.transparent {
+    margin: 0;
+    height: 250px;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.bg2 {
+    height: 250px;
+    background: url("../img/welcome-img-2.jpg") no-repeat center center;
+}
+
+.bg3 {
+    height: 250px;
+    background: url("../img/bazres.jpg") no-repeat center center;
+}
+
+/****************************feature section******************************/
+.feature-div  {
+    background-color: #fff;
+    text-align: center;
+}
+
+.feature-box {
+    padding: 20px;
+    margin: 20px;
+    width: 330px;
+    box-shadow:  rgb(255, 193, 7) 0px 0px 10px;
+    color: #000;
+}
+
+.feature-div img {
+    width: 50px;
+    height: 50px;
+}
+
+.feature-div h1 {
+    font-size: 2.2rem;
+    color: rgb(255, 193, 7);
+    padding-bottom: 25px;
+}
+/****************************feature section******************************/
+.service{
+    background-color: rgba(255, 193, 7, 0.8);
+}
+.service a{
+    text-decoration: none;
+    color: #000;
+}
+.service h5{
+    font-weight: bold;
+}
+.service img{
+    width: 50px;
+    height: 50px;
+}
+
+/**footer**/
+footer {
+
+    text-align: right;
+    color: #000;
+    direction: rtl;
+}
+
+footer p {
+    font-size: 14px;
+}
+
+footer div {
+    background-color: #312f2f;
+    padding: 10px;
+    color: #ffffff
+}
+
+footer input {
+    padding: 10px 20px 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+.a-style {
+    text-align: center;
+}
+
+.a-style a {
+    color: #ffffff;
+    text-decoration: none;
+}
+.a-style a:hover {
+    color: rgb(255, 193, 7);
+    text-decoration: none;
+}
+
+footer h6 {
+    color: rgb(255, 193, 7);
+    font-weight: bolder;
+}
+
+.social-logo img {
+    width: 40px;
+    height: 40px;
+}
+
+.copy-right {
+    text-align: center;
+    background-color: #fff;
+}
+
+
+/*********************************** style page more-all**************************************/
+.s1-more {
+    margin-top: 20px;
+}
+
+.header-collapse {
+    border: 1px solid #ccc;
+    border-radius: 3px 3px 0 0;
+    background-color: rgba(104, 58, 183, 0.692);
+
+}
+
+.header-collapse:hover {
+    background-color: #673AB7;
+}
+
+.header-collapse h6 {
+    margin-right: 10px;
+    padding: 5px;
+    font-size: 15px;
+}
+
+.accor ul {
+    margin: 10px;
+}
+
+/*************************** style page about*****************************/
+.div-bg {
+    background-color: lightgray;
+}
+
+.social-div {
+    width: 100px;
+    height: 100px;
+    background-color: #673AB7;
+}
+
+.social-div img {
+    width: 60px;
+    height: 60px;
+}
+
+.social-div img:hover {
+    transform: scale(1.1)
+}
+
+.about-content {
+    margin-top: 25px;
+}
+
+.about-content h1 {
+    color: #673AB7;
+}
+
+.about-div {
+    border: solid;
+    border-color: #673AB7
+}
+
+.about-banner {
+    background-color: rgba(104, 58, 183, 0.692)
+}
+
+.about-banner:hover {
+    background-color: #673AB7
+}
+
+.about-banner a:hover {
+    text-decoration: none;
+}
+
+/*************************** style other size*****************************/
+@media (min-width: 768px) and (max-width: 991px) {
+    body {
+        text-align: center;
+    }
+
+    .div-style {
+        display: none;
+    }
+
+    .sec3 h1 {
+        font-size: 2rem;
+    }
+
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    body {
+        text-align: center;
+    }
+
+    .div-style {
+        display: none;
+    }
+
+    .sec3 h1 {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 575px) {
+    body {
+        text-align: center;
+    }
+
+    .div-style {
+        display: none;
+    }
+
+    .category-div img {
+        width: 100px;
+    }
+
+    .sec3 h1 {
+        font-size: 2rem;
+    }
+
+    .img-div {
+        display: none;
+    }
+}
+
+/*************************** style page blog*****************************/
+.blog-card img {
+    height: 350px;
+}
+
+.article-card a {
+    color: #00B397;
+    text-decoration: none;
+}
+
+.article-card a:hover {
+    color: #673AB7;
+}
+
+.link-part {
+    background-color: #00B397;
+}
+
+.breadcrumb-item a {
+    text-decoration: none;
+}
+
+.card-header-color {
+    background-color: #00B397;
+
+}
+
+.top-article {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.top-article img {
+    width: 60px;
+    height: 50px;
+}
+
+.card-h1 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.top-article h1 {
+    font-size: 0.9rem;
+}
+
+.card-h2 {
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+
+.top-article a {
+    color: black;
+    text-decoration: none;
+}
+
+.top-article a:hover {
+    color: #00B397;
+}
+
+.article-card img {
+    height: 250px;
+}
+
+ol {
+    float: right;
+}
+
+/*************************** style moarefi page*****************************/
+.person h1 {
+    font-size: 2.2rem;
+    color: #8308eb;
+    padding-bottom: 25px;
+}
+
+.card1 img {
+
+    height: 150px;
+}
+
+.card1:hover {
+
+    transform: scale(1.1);
+}
+
+.card1 a {
+    text-decoration: none;
+    color: black;
+}
+
+.pagination1 ul {
+    text-align: center;
+}
+
+.image1 {
+    height: 225px;
+    width: 340px;
+}
+
+.info-div {
+    border: solid;
+    border-color: #000000;
+}
+
+.info-div:hover {
+    border-color: #673AB7;
+}
+
+/*************************** style contact page*****************************/
+/**map**/
+.map-responsive {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+}
+
+.map-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 75%;
+    width: 75%;
+    position: absolute;
+}
