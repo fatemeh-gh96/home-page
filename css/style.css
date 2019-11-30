@@ -178,7 +178,7 @@ nav img {
     height: 50px;
 }
 
-/**footer**/
+/****************************footer section******************************/
 footer {
 
     text-align: right;
@@ -258,14 +258,14 @@ footer h6 {
 }
 
 /*************************** style page about*****************************/
-.div-bg {
-    background-color: lightgray;
-}
 
 .social-div {
     width: 100px;
     height: 100px;
-    background-color: #673AB7;
+    box-shadow:  rgb(255, 193, 7) 0px 0px 10px; 
+}
+.social-div:hover {
+    background-color: rgb(255, 193, 7);
 }
 
 .social-div img {
@@ -280,27 +280,24 @@ footer h6 {
 .about-content {
     margin-top: 25px;
 }
-
-.about-content h1 {
-    color: #673AB7;
-}
-
 .about-div {
-    border: solid;
-    border-color: #673AB7
+    box-shadow:  rgb(255, 193, 7) 0px 0px 10px; 
 }
 
 .about-banner {
-    background-color: rgba(104, 58, 183, 0.692)
+    background-color: rgba(255,193,7, 0.692)
 }
 
 .about-banner:hover {
-    background-color: #673AB7
+    background-color: rgb(255, 193, 7);
 }
-
-.about-banner a:hover {
+.about-banner button:hover{
+    background-color: #312f2f;
+}
+.about-banner a {
     text-decoration: none;
 }
+
 
 /*************************** style other size*****************************/
 @media (min-width: 768px) and (max-width: 991px) {
@@ -360,26 +357,20 @@ footer h6 {
 }
 
 .article-card a {
-    color: #00B397;
+    color: rgb(255, 193, 7);
     text-decoration: none;
 }
 
 .article-card a:hover {
-    color: #673AB7;
+    color: #312f2f;
 }
 
-.link-part {
-    background-color: #00B397;
-}
 
 .breadcrumb-item a {
     text-decoration: none;
 }
 
-.card-header-color {
-    background-color: #00B397;
 
-}
 
 .top-article {
     padding-left: 0px;
@@ -411,7 +402,7 @@ footer h6 {
 }
 
 .top-article a:hover {
-    color: #00B397;
+    color: rgb(255, 193, 7);
 }
 
 .article-card img {
